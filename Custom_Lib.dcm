@@ -1,6 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP NRF52832_E73-2G4M04S1B
+D An SOC package with NRF52832 and recommended circuitry
+K NRF52832 SOC
 F https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwiLw_XCi6TnAhWNI1AKHcAoD6gQFjAAegQIARAB&url=http%3A%2F%2Fwww.ebyte.com%2Fen%2Fdownpdf.aspx%3Fid%3D243&usg=AOvVaw1uZIQdXI3MB0bF9rDuFr1S
 $ENDCMP
 #

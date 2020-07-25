@@ -1,5 +1,5 @@
 
-(rules PCB Adapter
+(rules PCB Spectra_Export_Freerouting
   (snap_angle 
     fortyfive_degree
   )
@@ -11,18 +11,18 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 526)
+    (start_pass_no 78)
     (layer_rule F.Cu
-      (active on)
-      (preferred_direction horizontal)
-      (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.0)
-    )
-    (layer_rule B.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.0)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
     )
   )
   (rule
@@ -63,12 +63,12 @@
     )
   )
   (class "kicad_default"
-    GND /SWDCLK /SWDIO /+3.3VCC /13 /14 /15 /16
-    /17 /18 /24 /23 /22 /21 /20 /19
-    /25 /26 /27 /28 /29 /30 /12 /11
-    /4 /3 /2 /31 "Net-(U1-Pad15)" "Net-(U1-Pad14)" "Net-(U1-Pad13)" "Net-(U1-Pad5)"
-    "Net-(U1-Pad4)" "Net-(U1-Pad25)" "Net-(U1-Pad26)" "Net-(J5-Pad2)" "Net-(J5-Pad3)" "Net-(J5-Pad4)" "Net-(J5-Pad5)" "Net-(J5-Pad8)"
-    "Net-(J5-Pad9)" "/5_RTS" "/8_RX" "/6_TX" "/7_CTS"
+    GND /26 /27 /28 /29 /30 /31 /32
+    /33 /34 /35 /36 /37 /38 /39 /40
+    /41 /42 "Net-(J2-Pad18)" "Net-(J2-Pad17)" /25 /24 /23 /22
+    /21 /20 /19 /18 /+3.3VCC /12 /11 /10
+    /9 /8 /7 /6 "Net-(J3-Pad5)" "Net-(J3-Pad3)" "Net-(J3-Pad2)" "Net-(U1-Pad4)"
+    "Net-(U1-Pad5)" "Net-(U1-Pad14)" "Net-(U1-Pad13)" "Net-(U1-Pad15)" "Net-(D1-Pad1)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
