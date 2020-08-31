@@ -19,7 +19,20 @@ Module front:
 
 ![Module front side](Pictures_Documents/Module_1.png)
 
-Module back:
+Hardware picture 1:
 
-![Module Back side](Pictures_Documents/Module.jpg)
+![Hardware picture 1](Pictures_Documents/Pic_1.jpg)
+
+Hardware picture 2:
+
+![Hardware picture 2](Pictures_Documents/Pic_2.jpg)
+
+Hardware picture 3:
+
+![Hardware picture 3](Pictures_Documents/Pic_3.jpg)
+
+Hardware picture 4:
+
+![Hardware picture 4](Pictures_Documents/Pic_4.jpg)
+
 
